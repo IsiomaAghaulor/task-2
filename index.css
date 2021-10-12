@@ -1,0 +1,101 @@
+.topsection{
+    background-image: url(./images/hero-bg-desktop.jpg);
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    
+}
+
+.formdiv{
+    background-color: white;
+    height: 350px;
+    width: 40%;
+    margin-top: 250px;
+    box-shadow: 1px 1px 16px gray;
+    position: relative;
+  
+    
+}
+.formdiv input{
+    padding: 5px;
+    margin: 5px;
+    border:none;
+    border-bottom: 2px
+
+}
+.dateSection{
+    border:none;
+    border-bottom: 1px
+
+}
+.timeSection{
+
+}
+.fourPeopleLine{
+
+}
+.reservationButton{
+    background-color: black;
+    color:white
+}
+.textdiv{
+    color: white;
+}
+.reservationButton{
+    background-color: black;
+    color:white;
+}
+.middlesection{
+    background-image: url(./patterns/pattern-curve-bottom-right.svg);
+    height: 250px;
+    width: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.middlecontent{
+margin-left: 150px;
+}
+.bottomsection{
+    height: 150px;
+    width: 100%;
+    background-size: contain;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.container1{
+    color:white;
+    justify-content:space-evenly;
+    margin-left:10%;
+    display:flex;
+    align-items: left;
+}
+.container2{
+    color:white;
+    justify-content:space-evenly;
+    margin:auto;
+    display:flex;
+    align-items: center;
+}
+.container3{
+    color:white;
+    justify-content:space-evenly;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+ 
+    .middlecontent{
+
+    }
+
+
+}
